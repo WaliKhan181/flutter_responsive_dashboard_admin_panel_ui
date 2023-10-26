@@ -35,7 +35,7 @@ class _MenuState extends State<Menu> {
               width: 1,
             ),
           ),
-          color: const Color(0xFF171821)),
+          color: Colors.grey[350]),
       child: Padding(
         padding: const EdgeInsets.all(15.0),
         child: SingleChildScrollView(
@@ -70,14 +70,14 @@ class _MenuState extends State<Menu> {
                             horizontal: 13, vertical: 7),
                         child: SvgPicture.asset(
                           menu[i].icon,
-                          color: selected == i ? Colors.black : Colors.grey,
+                          color: selected == i ? Colors.black : Colors.black,
                         ),
                       ),
                       Text(
                         menu[i].title,
                         style: TextStyle(
                             fontSize: 16,
-                            color: selected == i ? Colors.black : Colors.grey,
+                            color: selected == i ? Colors.black : Colors.black,
                             fontWeight: selected == i
                                 ? FontWeight.w600
                                 : FontWeight.normal),

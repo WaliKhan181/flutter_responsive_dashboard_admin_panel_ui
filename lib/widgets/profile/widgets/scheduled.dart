@@ -19,7 +19,7 @@ class Scheduled extends StatelessWidget {
       children: [
         const Text(
           "Scheduled",
-          style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+          style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500, color: Colors.black),
         ),
         const SizedBox(
           height: 12,

@@ -16,7 +16,7 @@ class Profile extends StatelessWidget {
           bottomLeft: Radius.circular(Responsive.isMobile(context) ? 10 : 30.0),
           topLeft: Radius.circular(Responsive.isMobile(context) ? 10 : 30.0),
         ),
-        color: cardBackgroundColor,
+        color: Colors.grey[350],
       ),
       child: SingleChildScrollView(
         child: Padding(
@@ -43,7 +43,7 @@ class Profile extends StatelessWidget {
                 "Edit health details",
                 style: TextStyle(
                   fontSize: 12,
-                  color: Theme.of(context).primaryColor,
+                  color: Colors.black,
                 ),
               ),
               Padding(
